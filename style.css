@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.app-title{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.container{
+width:1080px;
+height: 1080px;
+padding: 50px 100px;
+margin: 5px 10px;
+background-color:#2c226b;
+
+
+
+}
+.card-weather-container{
+width:200px;
+height: 200px;
+margin: 5px 10px 5px;
+padding: 5px 10px 5px 10px;
+background-color: #fff;
+border: 2px solid #000;
+
+}
+
+
+.card-temperature-container{
+    width:200x;
+    height: 200px;
+    padding: 5px 10px 5px 10px; 
+    margin: 5px 10px 5px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+ul{
+    list-style: none;
+}
+h2{
+    text-align: center;
+    
+}
+.weather-button {
+    font-size: 1.2em;
+    padding:8px;
+    cursor: pointer;
+    border:2px solid #000;
+    border-radius: 10px;
+    background-color: chartreuse;
+    color: ghostwhite;
+    height: 40px;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 160px;
+}
+.weather-button:hover{
+    background-color: greenyellow;
+    color:black;
+
+}
